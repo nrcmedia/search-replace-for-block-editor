@@ -124,10 +124,10 @@ class Options {
 	 */
 	public static function get_form_fields() {
 		return [
-			'general_options'       => [
+			'general_options' => [
 				'heading'  => esc_html__( 'General Options', 'search-replace-for-block-editor' ),
 				'controls' => [
-					'enable_case_matching' => [
+					'enable_case_matching'  => [
 						'control' => esc_attr( 'checkbox' ),
 						'label'   => esc_html__( 'Case Matching', 'search-replace-for-block-editor' ),
 						'summary' => esc_html__( 'Enable Case Matching toggle by default.', 'search-replace-for-block-editor' ),
@@ -137,17 +137,17 @@ class Options {
 						'label'   => esc_html__( 'Regex Matching', 'search-replace-for-block-editor' ),
 						'summary' => esc_html__( 'Enable Regex Matching toggle by default.', 'search-replace-for-block-editor' ),
 					],
-					'enable_save_post' => [
+					'enable_save_post'      => [
 						'control' => esc_attr( 'checkbox' ),
 						'label'   => esc_html__( 'Save Post', 'search-replace-for-block-editor' ),
 						'summary' => esc_html__( 'Perform save after search & replace is completed.', 'search-replace-for-block-editor' ),
 					],
-					'enable_close_modal' => [
+					'enable_close_modal'    => [
 						'control' => esc_attr( 'checkbox' ),
 						'label'   => esc_html__( 'Close Modal', 'search-replace-for-block-editor' ),
 						'summary' => esc_html__( 'Close modal after search & replace is completed.', 'search-replace-for-block-editor' ),
 					],
-					'enable_shortcut' => [
+					'enable_shortcut'       => [
 						'control' => esc_attr( 'checkbox' ),
 						'label'   => esc_html__( 'Use Shortcut', 'search-replace-for-block-editor' ),
 						'summary' => esc_html__( 'Enable Shortcut (CMD + F).', 'search-replace-for-block-editor' ),

@@ -98,7 +98,7 @@ class BootTest extends WPMockTestCase {
 
 		WP_Mock::userFunction( 'trailingslashit' )
 			->andReturnUsing(
-				function( $arg ) {
+				function ( $arg ) {
 					return sprintf( '%s%s', $arg, '/' );
 				}
 			);

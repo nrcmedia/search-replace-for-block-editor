@@ -64,10 +64,10 @@ class OptionsTest extends WPMockTestCase {
 		$this->assertSame(
 			$form_fields,
 			[
-				'general_options'       => [
+				'general_options' => [
 					'heading'  => 'General Options',
 					'controls' => [
-						'enable_case_matching' => [
+						'enable_case_matching'  => [
 							'control' => 'checkbox',
 							'label'   => 'Case Matching',
 							'summary' => 'Enable Case Matching toggle by default.',
@@ -77,17 +77,17 @@ class OptionsTest extends WPMockTestCase {
 							'label'   => 'Regex Matching',
 							'summary' => 'Enable Regex Matching toggle by default.',
 						],
-						'enable_save_post' => [
+						'enable_save_post'      => [
 							'control' => 'checkbox',
 							'label'   => 'Save Post',
 							'summary' => 'Perform save after search & replace is completed.',
 						],
-						'enable_close_modal' => [
+						'enable_close_modal'    => [
 							'control' => 'checkbox',
 							'label'   => 'Close Modal',
 							'summary' => 'Close modal after search & replace is completed.',
 						],
-						'enable_shortcut' => [
+						'enable_shortcut'       => [
 							'control' => 'checkbox',
 							'label'   => 'Use Shortcut',
 							'summary' => 'Enable Shortcut (CMD + F).',
