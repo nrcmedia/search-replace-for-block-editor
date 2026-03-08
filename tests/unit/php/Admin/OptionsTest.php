@@ -67,27 +67,27 @@ class OptionsTest extends WPMockTestCase {
 				'general_options' => [
 					'heading'  => 'General Options',
 					'controls' => [
-						'enable_case_matching'  => [
+						'case_matching'  => [
 							'control' => 'checkbox',
 							'label'   => 'Case Matching',
 							'summary' => 'Enable Case Matching toggle by default.',
 						],
-						'enable_regex_matching' => [
+						'regex_matching' => [
 							'control' => 'checkbox',
 							'label'   => 'Regex Matching',
 							'summary' => 'Enable Regex Matching toggle by default.',
 						],
-						'enable_save_post'      => [
+						'save_post'      => [
 							'control' => 'checkbox',
 							'label'   => 'Save Post',
 							'summary' => 'Perform save after search & replace is completed.',
 						],
-						'enable_close_modal'    => [
+						'close_modal'    => [
 							'control' => 'checkbox',
 							'label'   => 'Close Modal',
 							'summary' => 'Close modal after search & replace is completed.',
 						],
-						'enable_shortcut'       => [
+						'use_shortcut'   => [
 							'control' => 'checkbox',
 							'label'   => 'Use Shortcut',
 							'summary' => 'Enable Shortcut (CMD + F).',

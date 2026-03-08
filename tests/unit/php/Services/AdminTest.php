@@ -138,11 +138,11 @@ class AdminTest extends WPMockTestCase {
 			->with(
 				'search_replace_for_block_editor',
 				[
-					'enable_case_matching'  => '',
-					'enable_regex_matching' => '',
-					'enable_save_post'      => '',
-					'enable_close_modal'    => '',
-					'enable_shortcut'       => '',
+					'case_matching'  => '',
+					'regex_matching' => '',
+					'save_post'      => '',
+					'close_modal'    => '',
+					'use_shortcut'   => '',
 				]
 			)
 			->andReturn( null );
