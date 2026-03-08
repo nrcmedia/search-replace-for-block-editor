@@ -40,11 +40,13 @@ export const getAllowedBlocks = (): string[] => {
  * @return {string[]} List of Text Blocks.
  */
 export const getTextBlocks = (): string[] => {
+	type BlockType = ReturnType< typeof getBlockTypes >[ number ];
+
 	const textBlocks = getBlockTypes()
-		.filter( ( block ) => {
+		.filter( ( block: BlockType ) => {
 			return !! ( block?.category === 'text' );
 		} )
-		.map( ( block ) => {
+		.map( ( block: BlockType ) => {
 			return block?.name;
 		} );
 
