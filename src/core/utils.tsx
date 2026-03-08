@@ -90,7 +90,7 @@ export const getShortcut = (): { modifier: string; character: string } => {
 	 */
 	return applyFilters(
 		'search-replace-for-block-editor.keyboardShortcut',
-		options.SHIFT
+		options.CMD
 	) as { modifier: string; character: string };
 };
 
