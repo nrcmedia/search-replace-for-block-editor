@@ -17,15 +17,6 @@ use SearchReplaceForBlockEditor\Abstracts\Provider;
 
 class Boot extends Service implements Kernel {
 	/**
-	 * Plugin Slug.
-	 *
-	 * @since 1.9.0
-	 *
-	 * @var string
-	 */
-	public const SLUG = 'search-replace-for-block-editor';
-
-	/**
 	 * Bind to WP.
 	 *
 	 * @since 1.9.0
@@ -46,9 +37,9 @@ class Boot extends Service implements Kernel {
 	 */
 	public function register_text_domain(): void {
 		load_plugin_textdomain(
-			self::SLUG,
+			Options::get_page_slug(),
 			false,
-			dirname( plugin_basename( __FILE__ ) ) . '../../languages'
+			dirname( plugin_basename( __FILE__ ) ) . '/../../languages'
 		);
 	}
 
@@ -65,24 +56,24 @@ class Boot extends Service implements Kernel {
 	public function register_assets(): void {
 		global $wp_version;
 
-		$assets = $this->get_assets( plugin_dir_path( __FILE__ ) . '../../dist/app.asset.php' );
+		$assets = $this->get_assets( plugin_dir_path( __FILE__ ) . '/../../dist/app.asset.php' );
 
 		wp_enqueue_script(
-			self::SLUG,
-			trailingslashit( plugin_dir_url( __FILE__ ) ) . '../../dist/app.js',
+			Options::get_page_slug(),
+			plugins_url( sprintf( '%s/dist/app.js', Options::get_page_slug() ) ),
 			$assets['dependencies'],
 			$assets['version'],
 			false,
 		);
 
 		wp_set_script_translations(
-			self::SLUG,
-			self::SLUG,
+			Options::get_page_slug(),
+			Options::get_page_slug(),
 			plugin_dir_path( __FILE__ ) . '../../languages'
 		);
 
 		wp_localize_script(
-			self::SLUG,
+			Options::get_page_slug(),
 			'srfbe',
 			[
 				'wpVersion' => $wp_version,

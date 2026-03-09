@@ -56,7 +56,7 @@ class BootTest extends WPMockTestCase {
 			->with(
 				'search-replace-for-block-editor',
 				false,
-				'/inc/Services../../languages'
+				'/inc/Services/../../languages'
 			);
 
 		$this->boot->register_text_domain();
