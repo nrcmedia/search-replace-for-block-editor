@@ -137,11 +137,6 @@ class Options {
 						'label'   => esc_html__( 'Regex Matching', 'search-replace-for-block-editor' ),
 						'summary' => esc_html__( 'Enable Regex Matching toggle by default.', 'search-replace-for-block-editor' ),
 					],
-					'word_matching'  => [
-						'control' => esc_attr( 'checkbox' ),
-						'label'   => esc_html__( 'Word Matching', 'search-replace-for-block-editor' ),
-						'summary' => esc_html__( 'Perform search & replace only for words which are not surrounded by any text or string.', 'search-replace-for-block-editor' ),
-					],
 				],
 			],
 			'other_options'  => [

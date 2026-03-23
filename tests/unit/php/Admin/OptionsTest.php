@@ -77,11 +77,6 @@ class OptionsTest extends WPMockTestCase {
 							'label'   => 'Regex Matching',
 							'summary' => 'Enable Regex Matching toggle by default.',
 						],
-						'word_matching'  => [
-							'control' => 'checkbox',
-							'label'   => 'Word Matching',
-							'summary' => 'Perform search & replace only for words which are not surrounded by any text or string.',
-						],
 					],
 				],
 				'other_options'  => [

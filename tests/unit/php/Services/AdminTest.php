@@ -141,7 +141,6 @@ class AdminTest extends WPMockTestCase {
 				[
 					'case_matching'  => '',
 					'regex_matching' => '',
-					'word_matching'  => '',
 					'save_post'      => '',
 					'close_modal'    => '',
 					'use_shortcut'   => '',
