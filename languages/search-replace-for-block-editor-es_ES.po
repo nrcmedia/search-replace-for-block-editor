@@ -19,8 +19,8 @@ msgid "Search and Replace for Block Editor"
 msgstr "Buscar y Reemplazar en el Editor de Bloques"
 
 #. Plugin URI
-msgid "https://github.com/badasswp/search-and-replace"
-msgstr "https://github.com/badasswp/search-and-replace"
+msgid "https://github.com/badasswp/search-replace-for-block-editor"
+msgstr "https://github.com/badasswp/search-replace-for-block-editor"
 
 #. Description
 msgid "Search and replace text within the Block Editor."

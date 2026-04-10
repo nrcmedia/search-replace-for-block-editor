@@ -25,7 +25,7 @@ msgid "Search and Replace for Block Editor"
 msgstr ""
 
 #. Plugin URI
-msgid "https://github.com/badasswp/search-and-replace"
+msgid "https://github.com/badasswp/search-replace-for-block-editor"
 msgstr ""
 
 #. Description
