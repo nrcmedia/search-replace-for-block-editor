@@ -43,7 +43,7 @@ You can get a taste of how this works, by using the [demo](https://tastewp.com/c
 
 = ⚡ Shortcut Keys & Text Selection =
 
-To quickly access the Search and Replace modal, press <strong>CTRL + SHIFT + F</strong>. This will fire up the dialog box where you can quickly change things.
+To quickly access the Search and Replace modal, press <strong>CTRL + F</strong>. This will fire up the dialog box where you can quickly change things.
 
 You can also <strong>select text</strong> on your Block Editor and <strong>use the Shortcut</strong>. This will grab the text you have selected and fire up your dialog box with the text already typed into it. This makes working with the Search and Replace tool faster.
 
