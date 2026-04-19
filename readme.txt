@@ -29,7 +29,7 @@ Now you can easily search and replace text right in the Block Editor. Its easy a
 Our plugin comes with everything you need to find and replace text quicker and more efficiently.
 
 ✔️ <strong>Search & Replace</strong> text, typos, keywords faster.
-✔️ <strong>Shortcut Keys</strong> - CMD + SHIFT + F.
+✔️ <strong>Shortcut Keys</strong> - CMD + F.
 ✔️ <strong>Match Case</strong> Sensitivity.
 ✔️ <strong>Custom Hooks</strong> to help you customize plugin behaviour.
 ✔️ Available in <strong>mutiple langauges</strong> such as Arabic, Chinese, Hebrew, Hindi, Russian, German, Italian, Croatian, Spanish & French languages.
