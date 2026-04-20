@@ -221,7 +221,7 @@ addFilter(
 
 **Parameters**
 
-- shortcut _`{Object}`_ By default this is an object, containing `modifier` and `character` properties which together represent the following command `CMD + SHIFT + F`.
+- shortcut _`{Object}`_ By default this is an object, containing `modifier` and `character` properties which together represent the following command `CMD + F`.
 <br/>
 
 #### `search-replace-for-block-editor.caseSensitive`
