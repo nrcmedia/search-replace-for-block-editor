@@ -82,8 +82,8 @@ export const getShortcut = (): { modifier: string; character: string } => {
 	/**
 	 * Filter Keyboard Shortcut.
 	 *
-	 * By default the passed option would be SHIFT which
-	 * represents `CMD + SHIFT + F`.
+	 * By default the passed option would be CMD which
+	 * represents `CMD + F`.
 	 *
 	 * @since 1.0.1
 	 *

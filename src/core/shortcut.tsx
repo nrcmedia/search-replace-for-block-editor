@@ -1,3 +1,4 @@
+import { __ } from '@wordpress/i18n';
 import { useDispatch } from '@wordpress/data';
 import { useCallback } from '@wordpress/element';
 import { useShortcut } from '@wordpress/keyboard-shortcuts';
@@ -28,7 +29,10 @@ export const Shortcut = ( {
 		name: 'search-replace-for-block-editor/shortcut',
 		keyCombination: getShortcut(),
 		category: 'global',
-		description: 'Search & Replace',
+		description: __(
+			'Search & Replace',
+			'search-replace-for-block-editor'
+		),
 	} );
 
 	useShortcut(

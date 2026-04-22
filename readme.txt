@@ -3,7 +3,7 @@ Contributors: badasswp, rajanand346, jargovi, activist507
 Tags: search, replace, text, block, editor.
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 1.10.0
+Stable tag: 1.10.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,7 +29,7 @@ Now you can easily search and replace text right in the Block Editor. Its easy a
 Our plugin comes with everything you need to find and replace text quicker and more efficiently.
 
 ✔️ <strong>Search & Replace</strong> text, typos, keywords faster.
-✔️ <strong>Shortcut Keys</strong> - CMD + SHIFT + F.
+✔️ <strong>Shortcut Keys</strong> - CMD + F.
 ✔️ <strong>Match Case</strong> Sensitivity.
 ✔️ <strong>Custom Hooks</strong> to help you customize plugin behaviour.
 ✔️ Available in <strong>mutiple langauges</strong> such as Arabic, Chinese, Hebrew, Hindi, Russian, German, Italian, Croatian, Spanish & French languages.
@@ -43,7 +43,7 @@ You can get a taste of how this works, by using the [demo](https://tastewp.com/c
 
 = ⚡ Shortcut Keys & Text Selection =
 
-To quickly access the Search and Replace modal, press <strong>CTRL + SHIFT + F</strong>. This will fire up the dialog box where you can quickly change things.
+To quickly access the Search and Replace modal, press <strong>CTRL + F</strong>. This will fire up the dialog box where you can quickly change things.
 
 You can also <strong>select text</strong> on your Block Editor and <strong>use the Shortcut</strong>. This will grab the text you have selected and fire up your dialog box with the text already typed into it. This makes working with the Search and Replace tool faster.
 
@@ -63,6 +63,9 @@ Want to add your personal touch? All of our documentation can be found [here](ht
 6. Plugin Options page - Configure default settings for Search and Replace.
 
 == Changelog ==
+
+= 1.10.1 =
+* Docs: Update doc blocks.
 
 = 1.10.0 =
 * Feat: Added translation languages for `Japanese`,`Indonesian`, `Turkish`, `Polish`, `Dutch`, `Brazil` and `Portuguese`.
