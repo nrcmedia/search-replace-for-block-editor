@@ -21,17 +21,17 @@ jobs:
       - name: Checkout to Master Built branch
         if: github.ref == 'refs/heads/master'
         env:
-          USER_EMAIL: "badasswpdev@gmail.com"
-          USER_NAME: "badasswp"
+          USER_EMAIL: "s.donkers@sivard.nl"
+          USER_NAME: "sdonkers"
         run: |
           git config user.email "${USER_EMAIL}"
           git config user.name "${USER_NAME}"
           git checkout -b master-built
 
-      - name: Set up Node.js 20.x
+      - name: Set up Node.js 24.x
         uses: actions/setup-node@v3
         with:
-          node-version: 20.x
+          node-version: 24.x
 
       - name: Clear Yarn cache
         run: yarn cache clean
