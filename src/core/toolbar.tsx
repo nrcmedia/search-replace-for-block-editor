@@ -44,8 +44,7 @@ export const SearchReplaceToolbarIcon = ( settings: any ): object => {
 						/>
 					</ToolbarGroup>
 				</BlockControls>
-
-				<div key="gutenberg-native-toolbar">{ edit( props ) }</div>
+				{ edit( props ) }
 			</Fragment>
 		);
 	};

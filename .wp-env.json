@@ -2,7 +2,7 @@
 	"plugins": [
 		"."
 	],
-	"phpVersion": "8.2",
+	"phpVersion": "8.5",
 	"port": 5187,
 	"testsPort": 5188,
 	"config": {
