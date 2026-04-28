@@ -97,14 +97,4 @@ jobs:
       - name: Commit & push release-built branch
         run: |
           git commit -m "Build from ${{ github.ref_name }}"
-          git push origin "$BUILT_BRANCH" --force
-
-      - name: Deploy to Staging
-        uses: burnett01/rsync-deployments@6.0.0
-        with:
-          switches: -avzr --delete
-          path: ./
-          remote_path: /home/appworld/www/wp-content/plugins/search-replace-for-block-editor
-          remote_host: ${{ secrets.SRFBE_HOST }}
-          remote_user: ${{ secrets.SRFBE_USER }}
-          remote_key: ${{ secrets.SRFBE_PRIVATE_KEY }}
+          git push origin "$BUILT_BRANCH" --force      
