@@ -62,8 +62,8 @@ jobs:
 
       - name: Set Git identity
         run: |
-          git config user.email "badasswpdev@gmail.com"
-          git config user.name "badasswp"
+          git config user.email "s.donkers@sivard.nl"
+          git config user.name "sdonkers"
 
       - name: Create / reset release-built branch
         run: |
@@ -97,4 +97,4 @@ jobs:
       - name: Commit & push release-built branch
         run: |
           git commit -m "Build from ${{ github.ref_name }}"
-          git push origin "$BUILT_BRANCH" --force      
+          git push origin "$BUILT_BRANCH" --force
