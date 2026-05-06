@@ -3,7 +3,7 @@ Contributors: badasswp, rajanand346, jargovi, activist507
 Tags: search, replace, text, block, editor.
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 1.10.1
+Stable tag: 1.10.1-nrc
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -63,6 +63,10 @@ Want to add your personal touch? All of our documentation can be found [here](ht
 6. Plugin Options page - Configure default settings for Search and Replace.
 
 == Changelog ==
+
+= 1.10.1-nrc = 
+* Forked
+* Fix: removed divs from being added to 
 
 = 1.10.1 =
 * Docs: Update doc blocks.
